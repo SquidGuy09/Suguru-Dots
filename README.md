@@ -17,6 +17,7 @@ Smooth Hyprland rice with Suguru Geto wallpaper.
 - **Battery Profiles:** power-profiles-daemon
 - **Audio Visualizer:** cava
 - **Package Manager:** yay
+- **Oh My Zsh:** https://ohmyz.sh/
   
 
 ## Roadmap
