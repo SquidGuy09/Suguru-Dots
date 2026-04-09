@@ -1,4 +1,4 @@
-# Suguru-Dots 🦑
+# Suguru Dots 🦑
 Smooth Hyprland rice with Suguru Geto wallpaper.
 
 ## Components
