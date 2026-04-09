@@ -8,8 +8,14 @@ Smooth Hyprland rice with Suguru Geto wallpaper.
 - **Launcher:** Rofi
 - **Notifications:** Swaync
 - **Fetch:** Fastfetch
+## Dependencies
+- ##Wallpaper Daemon:## swww
+- ##Screenshot Tool:## hyprshot
+- ##Battery Profiles:## power-profiles-daemon
+- ##Audio Visualizer:## cava
+  
 
-I also have a checklist for things I would like to add to it --
+## Roadmap
 - ✅ Smooth waybar
 - ✅ Kitty with Pywal themes based on wallpaper
 - ✅ Rofi App Launcher
