@@ -1,0 +1,29 @@
+.cache/
+
+# Firefox
+.mozilla/
+.cache/
+
+# Secrets
+*.env
+secrets.sh
+*.secret
+*.key
+*.pem
+
+# Logs
+*.log
+logs/
+~/.cache/hypr/
+
+# Hyprland runtime
+hyprland.log
+
+# Junk
+*.bak
+*.swp
+.DS_Store
+
+# Discord
+.config/discord/
+.cache/discord/

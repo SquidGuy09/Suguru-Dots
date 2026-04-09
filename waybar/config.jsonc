@@ -1,0 +1,180 @@
+{
+    "spacing": 18,
+    "margin-top": 6,
+    "modules-center": [
+        "hyprland/workspaces",
+        "custom/divider",
+        "custom/pacman"
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+        "group/battery-group",
+        "custom/divider",
+        "clock",
+        "custom/divider",
+        "custom/notifs"
+    ],
+    "modules-left": [
+        "custom/logo",
+        "custom/divider",
+        "custom/prev",
+        "custom/playpause",
+        "custom/next",
+        "custom/playerctl"
+        /* "custom/cava" */
+    ],
+    "hyprland/workspaces": {
+        "format": "{name}",
+        "format-icons": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": ""
+        },
+        "persistent-workspaces": {
+            "*": 5 // 5 workspaces by default on every monitor
+        }
+    },
+    "custom/pacman": {
+        "format": "  {}",
+        "interval": "once",
+        "exec": "checkupdates | wc -l",
+        "on-click": "kitty zsh -c 'checkupdates; exec zsh'",
+        "on-click-right": "kitty zsh -c 'yay -Syu'",
+        "signal": 8,
+        "tooltip-format":
+"      {} updates available
+--------------------------------
+ Left click for list of updates 
+      Right click to update"
+    },
+    /* right stuff */
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-bluetooth": "{volume}% {icon}",
+        "format-muted": "Muted ",
+        "format-icons": {
+            "headphone": "",
+            "headset": "",
+            "default": [
+                "",
+                "",
+                ""
+            ]
+        },
+        "scroll-step": 1,
+        "on-click": "pavucontrol",
+        "ignored-sinks": [
+            "Easy Effects Sink"
+        ]
+    },
+    "network": {
+        "interface": "wlan0",
+        "format": "{ifname}",
+        "format-wifi": "{icon}  {essid}",
+        "format-icons": [
+            "󰤯",
+            "󰤟",
+            "󰤢",
+            "󰤥",
+            "󰤨"
+        ],
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "format-disconnected": "", //An empty format will hide the module.
+        "tooltip-format": " via {gwaddr} 󰊗",
+        "tooltip-format-wifi": "Signal Strength: {signalStrength}%",
+        "tooltip-format-ethernet": "{ifname} ",
+        "tooltip-format-disconnected": "Disconnected",
+        "max-length": 50
+    },
+    "battery": {
+        "interval": 1,
+        "format": "{icon} {capacity}%",
+        "tooltip": true,
+        "format-icons": [
+            "󰁺",
+            "󰁼",
+            "󰁾",
+            "󰂀",
+            "󰁹"
+        ]
+    },
+    "group/battery-group": {
+        "orientation": "horizontal",
+        "drawer": {
+            "transition-duration": 200,
+            "children-class": "battery-drawer"
+        },
+        "modules": [
+            "battery",
+            "custom/battery-profile"
+        ]
+    },
+    "custom/battery-profile": {
+        "format": "{}",
+        "exec": "cat /tmp/battery-profile",
+        "on-click": "~/.config/waybar/scripts/battery-profile.sh",
+        "interval": 0,
+	"tooltip": false
+    },
+    "clock": {
+        "interval": 1,
+        "format": "󰥔  {:%H:%M:%S}",
+        "tooltip": false
+    },
+    "custom/divider": {
+        "format": "│",
+        "interval": "once",
+        "tooltip": false
+    },
+    "custom/notifs": {
+        "format": "",
+        "tooltip": false,
+        "on-click": "swaync-client -t"
+    },
+    /* left modules */
+    "custom/logo": {
+        "format": "󰣇",
+        "tooltip-format": "Click for fastfetch",
+        "on-click": "kitty zsh -c '~/.config/fastfetch/fetch.sh; exec zsh'"
+    },
+    /* playerctl stuff */
+    "custom/playerctl": {
+        "format": "{} ",
+        "return-type": "json",
+        "exec": "~/.config/waybar/scripts/playerctl.sh",
+        "on-click": "playerctl play-pause",
+        "on-click-right": "playerctl next",
+        "on-scroll-up": "playerctl previous",
+        "on-scroll-down": "playerctl next",
+        "restart-interval": 2,
+        "escape": true
+    },
+    "custom/prev": {
+        "format": "",
+        "on-click": "playerctl previous",
+        "tooltip": false
+    },
+    "custom/playpause": {
+        "format": "{}",
+        "return-type": "json",
+        "exec": "~/.config/waybar/scripts/playpause.sh",
+        "on-click": "playerctl play-pause",
+        "restart-interval": 2,
+        "tooltip": false
+    },
+    "custom/next": {
+        "format": "",
+        "on-click": "playerctl next",
+        "tooltip": false
+    },
+    /* cava stuff */
+    "custom/cava": {
+        "format": "{}",
+        "return-type": "json",
+        "exec": "bash ~/.config/waybar/scripts/cava.sh",
+        "tooltip": false
+    }
+}
