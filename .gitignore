@@ -27,3 +27,4 @@ hyprland.log
 # Discord
 .config/discord/
 .cache/discord/
+.oh-my-zsh/
