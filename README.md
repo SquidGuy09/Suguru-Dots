@@ -25,7 +25,7 @@ Rescources I used:
 - Waybar inspiration: https://github.com/superisuer/dotfiles/blob/main/.config/waybar/style.css
 - Terminal Font: https://github.com/wylu1037/google-sans-code-nerd-font?tab=readme-ov-file
 - Rofi App launcher: https://github.com/adi1090x/rofi/blob/master/previews/launchers/type-1/2.png
-- SwayNC Config: https://github.com/zDyant/HyprNova This one was heavily modified, but props to the creator for creating peak.
+- SwayNC Config: https://github.com/zDyant/HyprNova This one was heavily modified, but props to zDyant for creating peak.
 - Waybar/Rofi/SwayNC Font: CascadiaMono Nerd Font
 - Wallpaper: https://wallhaven.cc/w/g7p8gl
 
