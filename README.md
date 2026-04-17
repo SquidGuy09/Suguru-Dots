@@ -68,4 +68,4 @@ Smooth Hyprland rice with Suguru Geto wallpaper.
 
 4. Run ```swww img ~/Wallpapers/geto1.png``` to set the wallpaper.
 
-5. 
+5. Copy files from ```Fonts``` folder into ~/.local/share/fonts (You will have to make a new folder titled ```fonts```)
