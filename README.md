@@ -64,7 +64,7 @@ Smooth Hyprland rice with Suguru Geto wallpaper.
 ```
 3. Copy files in the ```config files``` folder to ~/.config/
 
-  3.1. Copy Wallpapers folder into home directory.
+  3.1. Copy Wallpapers folder into home directory. It is very important that you ****copy the entire folder into the home directory****. Otherwise, when you run the theme switcher script or wallpaper script, it will not know what to take from. It is also very important that you keep the name of the folder ```Wallpapers```. Unless you feel like messing around in bash scripts, you have to keep it this way, because otherwise it will still not know where to read.
 
 4. Run ```swww img ~/Wallpapers/geto1.png``` to set the wallpaper.
 
