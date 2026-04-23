@@ -1,0 +1,16 @@
+/**
+ *
+ * Author : SquidGuy09
+ *
+ * Colors
+ **/
+
+* {
+    background:     #00000080;
+    background-alt: #28282880;
+    foreground:     #ffffffFF;
+    selected:       #dadadaFF;
+    active:         #70d247FF;
+    urgent:         #FB4934FF;
+}
+     
