@@ -27,7 +27,7 @@ Smooth Hyprland rice with Suguru Geto wallpaper.
 - ✅ Notification Center
 - ✅ Cava in Waybar -- (check the config.jsonc for waybar to turn it on)
 - ✅ Awesome Fastfetch
-- ✅ Theme Switcher
+- ✅ Theme Switcher (still need to add some themes, so nothing other than gruvbox and gruvbox-noir works :(  )
 - ✅ Wallpaper Switcher
 - ✅ Layout Switcher (scrolling doesnt work, still waiting for hyprscroller update)
 - ❌ Showcase
