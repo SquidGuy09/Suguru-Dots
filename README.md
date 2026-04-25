@@ -34,6 +34,7 @@ Smooth Hyprland rice with Suguru Geto wallpaper.
 - ❌ Customized Neovim
 - ❌ Custom Powermenu
 - ❌ Themed Yazi
+- ❌ On Screen Displays
 
 ## Rescources I used:
 - Waybar inspiration: https://github.com/superisuer/dotfiles/blob/main/.config/waybar/style.css
