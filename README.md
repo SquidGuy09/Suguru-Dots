@@ -1,5 +1,5 @@
-# Suguru Dots 🦑
-Smooth Hyprland rice with Suguru Geto wallpaper.
+# Jujutsu Kaisen Inspird Dotfiles
+Smooth Hyprland rice with ≥1 JJK wallpapers per theme.
 
 <img width="1440" height="900" alt="2026-04-09-133248_hyprshot" src="https://github.com/user-attachments/assets/a3bbc6fc-4b8e-4350-ac17-dfe84e468bd7" />
 
