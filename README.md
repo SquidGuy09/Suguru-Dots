@@ -27,7 +27,14 @@ Smooth Hyprland rice with ≥1 JJK wallpapers per theme.
 - ✅ Notification Center
 - ✅ Cava in Waybar -- (check the config.jsonc for waybar to turn it on)
 - ✅ Awesome Fastfetch
-- ✅ Theme Switcher (still need to add some themes, so nothing other than gruvbox and gruvbox-noir works :(  )
+- ❌ Theme Switcher
+- ✅ Gruvbox Theme
+- ✅ Gruvbox Noir Theme
+- ✅ Nord Theme
+- ❌ Catppuccine Theme and its varieties
+- ❌ Noir Theme
+- ❌ Everforest theme
+- ❌ Matugen
 - ✅ Wallpaper Switcher
 - ✅ Layout Switcher (scrolling doesnt work, still waiting for hyprscroller update)
 - ❌ Showcase
